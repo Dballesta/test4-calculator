@@ -2,6 +2,10 @@
 
 ## MAVEN
 
+Add Tracer dependency to project
+    
+    mvn install:install-file -Dfile='ext/tracer-1.0.0.jar'
+
 Compile the project for Ide Use:
     
     mvn clean compile
